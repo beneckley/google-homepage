@@ -1,22 +1,20 @@
 
 html body{
-    height: 100%;
-    width: 100%;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
 }
-.search{
+#search{
     width: 500px;
     height: 30px;
     margin: 20px;
-    
+    border: .5px  rgb(223, 225, 229) solid;
+    border-radius: 20px; 
+    padding: 6px;
 } 
 
 .logo-and-search {
-    position: absolute;
-    height: 300px;
-    width: 300px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    text-align: center;
     
 } 
     
@@ -26,3 +24,81 @@ html body{
     height: auto;
 } 
 
+.logo-and-search img{
+    margin-top: 10%;
+} 
+
+.button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    border-radius: 5px;
+    border: 1px #f2f2f2 solid;
+    color: gray;
+} 
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+} 
+
+li{
+    display: inline;
+    padding: 10px;
+    font-size: 12px;
+    font-family: Arial, sans-serif;
+} 
+
+.list-break{
+    display: inline-block;
+    height: auto;
+    width: 1200px;
+    margin-top: 30px;
+} 
+
+a{
+    color:rgba(0,0,0,0.87);
+    text-decoration: none;
+} 
+
+nav img{
+    height:30px;
+    width: 30px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+} 
+
+.ul2 li{
+    display: inline-block;
+    justify-content: center;
+    color: lightgray;
+    margin-top: 5px;
+    margin-left: 10px;
+    font-family: Arial;
+    font-size: 13px;
+}
+
+.ul2 li a:hover{
+    text-decoration: underline;
+}
+
+.list-break2{
+    display:inline-block;
+    height: auto;
+    width: 950px;
+}
+
+footer{
+    background-color: #f2f2f2;
+    height: 40px;
+    margin-top:20.5%;
+    border: 1px solid lightgray;
+    border-right: none;
+} 
+
+.ul2 li a{
+    color: gray;
+}
